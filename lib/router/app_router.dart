@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:listflutter/models/models.dart';
-
 import 'package:listflutter/screens/screens.dart';
 
 class AppRoute {
@@ -53,6 +52,12 @@ class AppRoute {
       title: 'SliderScreen',
       screen: const SliderScreen(),
       icon: Icons.safety_check_rounded,
+    ),
+    MenuOptions(
+      route: 'List Build ',
+      title: 'ListBuildScreen',
+      screen: const ListBuilderScreen(),
+      icon: Icons.list_rounded,
     ),
   };
 
